@@ -1,3 +1,5 @@
+var generateBtn = document.querySelector("#generate");
+
 //create a function to generate a  password
 function generatePassword() {
   //ask user how long they want the password
@@ -45,10 +47,10 @@ function generatePassword() {
       let randomIndex = Math.floor(Math.random() * allCharacters.length);
       generatedPassword += allCharacters[randomIndex];
     }
+    return generatedPassword;
   }
 
 //     // Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
 
 // // Write password to the #password input
 function writePassword() {
