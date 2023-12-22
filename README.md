@@ -24,6 +24,8 @@ COMMENTS:
 each time i get "undefined" returned in the text box. I believe the logic
 and syntax are mostly correct, but I'm turning this in 
 for grading and comments in hopes of understanding where the breakdown is. 
+    **After adding return generatedPassword; to line 50, script now works as designed!
+    
 *Comments included with the js code explain the logic and syntax attempted. The final result 
 
 Work done to fit the acceptance criteria:
