@@ -17,14 +17,17 @@ Repository: https://github.com/TreyLathe/mod-3-challenge
 Deployed Site:  https://treylathe.github.io/mod-3-challenge/
 *as mentioned in comments below, prompts work, but then returns an 'undefined' 
 
+SCREENSHOTS:
+Opening Page:
+![Opening Page](screenshots/pwdgenerator1.png)
+First PWD attribute prompt:
+![Request Prompt](screenshots/pwgenerator2.png)
+Generated Password w/ all criteria selected and 10 characters long:
+![Generated Password](screenshots/pwdgenerator3.png)
 
 COMMENTS:
 
-*I have been unable to get this to return a generated password. 
-each time i get "undefined" returned in the text box. I believe the logic
-and syntax are mostly correct, but I'm turning this in 
-for grading and comments in hopes of understanding where the breakdown is. 
-    **After adding return generatedPassword; to line 50, script now works as designed!
+**After adding return generatedPassword; to line 50, script now works as designed!
     
 *Comments included with the js code explain the logic and syntax attempted. The final result 
 
