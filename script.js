@@ -14,11 +14,8 @@ function generatePassword() {
     let askLowerCase = confirm("Do you want lowercase letters in your password?");
     let askNum = confirm("Do you want numbers in your password");
     let askSpecial = confirm("Do you want special characters in your password?");
-  
-  //if they don't chose any character types, refresh (?)
-  //aside: the confirm gives an "ok" or "cancel" choice. This seems
-  //confusing for the user, is there a way for the confirm to say "yes" and "no instead"
-    if (!askUpperCase && !askLowerCase && !askNum && !askSpecial) {
+  //if they don't chose any character types, refresh
+      if (!askUpperCase && !askLowerCase && !askNum && !askSpecial) {
       alert("You must choose at least one character type, try again.");
       return;
     }
@@ -50,9 +47,7 @@ function generatePassword() {
     return generatedPassword;
   }
 
-//     // Get references to the #generate element
-
-// // Write password to the #password input
+// Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
@@ -60,6 +55,5 @@ function writePassword() {
   passwordText.value = password;
 
 }
-
 // // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
